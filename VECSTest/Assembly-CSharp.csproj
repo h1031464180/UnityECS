@@ -68,95 +68,98 @@
     <Compile Include="Assets\Scene2\EntityQuery_MoveComponentSystem.cs" />
     <Compile Include="Assets\Scene2\NewMoveProxy.cs" />
     <Compile Include="Assets\Scene3_PureECS\PureMain.cs" />
+    <Compile Include="Assets\Scene4_雨滴掉落\DropData.cs" />
+    <Compile Include="Assets\Scene4_雨滴掉落\DropSystem.cs" />
+    <Compile Include="Assets\Scene4_雨滴掉落\Pure_DropMain.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities.Properties">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Entities.Properties.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Entities.Properties.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Jobs">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Jobs.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Jobs.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Jobs.Editor">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Jobs.Editor.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Jobs.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities.Editor">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Entities.Editor.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Entities.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities.StaticTypeRegistry">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Entities.StaticTypeRegistry.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Entities.StaticTypeRegistry.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Scenes.Hybrid">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Scenes.Hybrid.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Scenes.Hybrid.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Scenes.Editor">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Scenes.Editor.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Scenes.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Extensions">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Mathematics.Extensions.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Mathematics.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Extensions.Hybrid">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Mathematics.Extensions.Hybrid.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Mathematics.Extensions.Hybrid.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rendering.Hybrid">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities.BuildUtils">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Entities.BuildUtils.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Entities.BuildUtils.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities.Hybrid">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Properties">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Properties.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Properties.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Entities.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Entities.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Properties.Reflection">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Properties.Reflection.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Properties.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Transforms">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Transforms.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Transforms.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Transforms.Editor">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Transforms.Editor.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Transforms.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Transforms.Hybrid">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Unity/unity2019.1.6/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -342,16 +345,16 @@
       <HintPath>D:/Unity/unity2019.1.6/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>E:/MyProject/UnityProject/VECSTest/Library/PackageCache/com.unity.collections@0.0.9-preview.20/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/PackageCache/com.unity.collections@0.0.9-preview.20/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/Unity/unity2019.1.6/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
