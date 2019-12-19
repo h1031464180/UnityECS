@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using Unity.Entities;
 using Unity.Transforms;
 
-public class DropSystem : ComponentSystem
+public class DropSystem_Hybrid : ComponentSystem
 {
     public float minHeight = -100;                              // 下落最低值
     protected override void OnUpdate()
@@ -23,7 +21,7 @@ public class DropSystem : ComponentSystem
                 {
                     translation.Value.y = 0;
                     dropData.velocity = Random.Range(1, 10);
-                    dropData.delay = Random.Range(1,10);
+                    dropData.delay = Random.Range(1, 10);
                 }
                 else
                 {

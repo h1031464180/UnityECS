@@ -68,9 +68,13 @@
     <Compile Include="Assets\Scene2\EntityQuery_MoveComponentSystem.cs" />
     <Compile Include="Assets\Scene2\NewMoveProxy.cs" />
     <Compile Include="Assets\Scene3_PureECS\PureMain.cs" />
-    <Compile Include="Assets\Scene4_雨滴掉落\DropData.cs" />
-    <Compile Include="Assets\Scene4_雨滴掉落\DropSystem.cs" />
-    <Compile Include="Assets\Scene4_雨滴掉落\Pure_DropMain.cs" />
+    <Compile Include="Assets\Scene4_Pure雨滴掉落\DropData.cs" />
+    <Compile Include="Assets\Scene4_Pure雨滴掉落\DropSystem.cs" />
+    <Compile Include="Assets\Scene4_Pure雨滴掉落\Pure_DropMain.cs" />
+    <Compile Include="Assets\Scene5_Hybrid雨滴下落\DropData_Hybrid.cs" />
+    <Compile Include="Assets\Scene5_Hybrid雨滴下落\DropDataProxy_Hybrid.cs" />
+    <Compile Include="Assets\Scene5_Hybrid雨滴下落\DropSystem_Hybrid.cs" />
+    <Compile Include="Assets\Scene5_Hybrid雨滴下落\Hybrid_DropMain.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
