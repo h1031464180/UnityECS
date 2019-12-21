@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using Unity.Entities;
 using Unity.Transforms;
-
+[DisableAutoCreation]
 public class DropSystem_Hybrid : ComponentSystem
 {
     public float minHeight = -100;                              // 下落最低值

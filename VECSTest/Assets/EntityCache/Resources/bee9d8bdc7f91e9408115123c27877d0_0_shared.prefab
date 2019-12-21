@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5305879223855833868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5631174141270239301}
+  - component: {fileID: 943131946672695855}
+  - component: {fileID: 5828707643250255329}
+  - component: {fileID: 561794571985082667}
+  m_Layer: 0
+  m_Name: bee9d8bdc7f91e9408115123c27877d0_0_shared
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5631174141270239301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5305879223855833868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &943131946672695855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5305879223855833868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf10cdea1344482e91a4f2b58506b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5828707643250255329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5305879223855833868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877d1a5a381e84717a154501ecfa1940, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedData:
+    SceneGUID:
+      Value:
+        x: 3683491563
+        y: 1239523196
+        z: 840241536
+        w: 225937196
+    Section: 0
+--- !u!114 &561794571985082667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5305879223855833868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0fd4427893a4a16ba0c267dfd00217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedData:
+    mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    material: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+    subMesh: 0
+    layer: 0
+    castShadows: 1
+    receiveShadows: 1
