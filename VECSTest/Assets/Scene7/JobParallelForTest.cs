@@ -1,22 +1,22 @@
-﻿ using UnityEngine;
+﻿using UnityEngine;
 using Unity.Jobs;
+using Unity.Entities;
 using Unity.Collections;
 
-public class IJobTest : MonoBehaviour
+public class JobParallelForTest : MonoBehaviour
 {
-    struct VelocityJob : IJob
+    struct VelocityJob : IJobParallelFor
     {
         public NativeArray<Vector3> positions;
         public NativeArray<Vector3> velocitys;
         public float delaTime;
-        public void Execute()
+        // 并行化 让一个线程做数组的一部分处理
+        public void Execute(int index)
         {
-            for (int i = 0; i < positions.Length; i++)
-            {
-                positions[i] = positions[i] + velocitys[i] * delaTime;
-            }
+            positions[index] = positions[index] + velocitys[index] * delaTime;
         }
     }
+   
     public int gameCount = 300;
     public GameObject prefab;
     public GameObject[] gameObjs;
@@ -26,7 +26,7 @@ public class IJobTest : MonoBehaviour
         for (int i = 0; i < gameCount; i++)
         {
             gameObjs[i] = Instantiate<GameObject>(prefab);
-            gameObjs[i].transform.position = UnityEngine.Random.insideUnitSphere*40;
+            gameObjs[i].transform.position = UnityEngine.Random.insideUnitSphere * 40;
         }
 
     }
@@ -50,8 +50,8 @@ public class IJobTest : MonoBehaviour
             velocitys = tmpVelocitys
         };
         // 2.执行  
-        //信号量 主线程如何知道子线程执行完毕
-        JobHandle jobHandle = job.Schedule();
+        //信号量 主线程如何知道子线程执行完毕    gameCount 指定总共子线程执行数据数量 10：每个子线程以下处理多少次
+        JobHandle jobHandle = job.Schedule(gameCount,10);
 
         // 3.同步
         jobHandle.Complete();
