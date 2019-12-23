@@ -1,5 +1,5 @@
 sceneSetups:
-- path: "Assets/Scene9_Job\u7EC4\u5408\u4F9D\u8D56/Scene9.unity"
+- path: Assets/Scene10/Scene10.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

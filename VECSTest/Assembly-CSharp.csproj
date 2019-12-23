@@ -65,6 +65,10 @@
     <Compile Include="Assets\Scene1\MoveComponentData.cs" />
     <Compile Include="Assets\Scene1\MoveComponentSystem.cs" />
     <Compile Include="Assets\Scene1\MoveProxy.cs" />
+    <Compile Include="Assets\Scene10\PureJob_DropData.cs" />
+    <Compile Include="Assets\Scene10\PureJob_DropJobSystem.cs" />
+    <Compile Include="Assets\Scene10\PureJob_Main.cs" />
+    <Compile Include="Assets\Scene10\PureJob_Proxy.cs" />
     <Compile Include="Assets\Scene2\EntityQuery_MoveComponentSystem.cs" />
     <Compile Include="Assets\Scene2\NewMoveProxy.cs" />
     <Compile Include="Assets\Scene3_PureECS\PureMain.cs" />
