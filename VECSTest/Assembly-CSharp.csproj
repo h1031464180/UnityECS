@@ -76,7 +76,9 @@
     <Compile Include="Assets\Scene5_Hybrid雨滴下落\DropSystem_Hybrid.cs" />
     <Compile Include="Assets\Scene5_Hybrid雨滴下落\Hybrid_DropMain.cs" />
     <Compile Include="Assets\Scene6_IJob\IJobTest.cs" />
-    <Compile Include="Assets\Scene7\JobParallelForTest.cs" />
+    <Compile Include="Assets\Scene7_JobParallelFor\JobParallelForTest.cs" />
+    <Compile Include="Assets\Scene8_Job依赖关系\JobParallelForTransformTest.cs" />
+    <Compile Include="Assets\Scene9_Job组合依赖\IJobParallelForTransformCombine.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/SVNProject/VaeSVNProject/UnityECS/VECSTest/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
