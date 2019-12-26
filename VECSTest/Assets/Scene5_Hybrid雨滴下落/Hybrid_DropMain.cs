@@ -10,8 +10,6 @@ public class Hybrid_DropMain : MonoBehaviour
     public int entityRange = 100;
     public int delaySpeed = 1;
     public int dropSpeed = 1;
-    public Mesh mymesh;
-    public Material mymaterial;
     public GameObject prefab;
     void Start()
     {

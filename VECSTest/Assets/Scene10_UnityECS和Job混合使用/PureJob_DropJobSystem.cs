@@ -3,7 +3,7 @@ using Unity.Entities;
 using Unity.Jobs;
 using Unity.Transforms;
 using Unity.Collections;
-
+[DisableAutoCreation]
 public class PureJob_DropJobSystem : JobComponentSystem
 {
 
