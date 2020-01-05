@@ -53,6 +53,8 @@ public class IJobChunk_JobComponentSystem : JobComponentSystem
         var rotationType = GetArchetypeChunkComponentType<Rotation>();
         var rotateType = GetArchetypeChunkComponentType<IJobChunk_RotateData>(true);
 
+
+
         RotateJob rotateJob = new RotateJob
         {
             deltaTime = Time.deltaTime,

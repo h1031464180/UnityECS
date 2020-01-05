@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Unity.Entities;
+[DisableAutoCreation]
 [UpdateInGroup(typeof(InitializationSystemGroup))]
 public class Enemy_Create : ComponentSystem
 {
@@ -11,7 +12,7 @@ public class Enemy_Create : ComponentSystem
     }
 
 }
-
+[DisableAutoCreation]
 [UpdateInGroup(typeof(SimulationSystemGroup))]
 public class Enemy_Move : ComponentSystem
 {
@@ -21,7 +22,7 @@ public class Enemy_Move : ComponentSystem
     }
 
 }
-
+[DisableAutoCreation]
 [UpdateInGroup(typeof(SimulationSystemGroup))]
 [UpdateAfter(typeof(Enemy_Move))]
 public class Enemy_Attack : ComponentSystem
