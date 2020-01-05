@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scene15_EntityQuery实体筛选器\Query_GetEntityQuerySystem.cs" />
     <Compile Include="Assets\Scene15_EntityQuery实体筛选器\Query_SetChangedVersionFilter.cs" />
     <Compile Include="Assets\Scene15_EntityQuery实体筛选器\Query_SetSharedComponentFilter.cs" />
+    <Compile Include="Assets\Scene16_OtherComponent\OtherComponentData.cs" />
     <Compile Include="Assets\Scene2\EntityQuery_MoveComponentSystem.cs" />
     <Compile Include="Assets\Scene2\NewMoveProxy.cs" />
     <Compile Include="Assets\Scene20_模拟球球大作战\CommandData.cs" />
